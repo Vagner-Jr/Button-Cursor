@@ -29,6 +29,7 @@ body {
 
 div#app {
     width: 360px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +40,13 @@ div#app {
     background: var(--color);
 }
 
+header {
+    margin-bottom: 24px;
+}
+
 p {
+    margin-top: 12px;
+    font-size: 16px;
     opacity: .5;
 }
 
@@ -56,6 +63,7 @@ button {
 /*primary*/
 .primary {
     background: var(--purple-button);
+    cursor: pointer;
 }
 
 .primary:hover {
