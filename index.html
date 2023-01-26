@@ -1,122 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Botôes e Cursores | DevN</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
   </head>
 
   <body>
     <div id="app">
-      <table border="1" >
-        <thea>
-          <tr>
-            <th>&nbsp;</th>
-            <th>BOTÃO PRIMÁRIO</th>
-            <th>BOTÃO SECUNDÁRIO</th>
-            <th>BOTÃO TERCIÁRIO</th>
-            <th>CURSOR</th>
-          </tr>
-        </thead>
-  
-        <tbody>
-          <tr class="default">
-            <td>DEFAULT</td>
-            <td>
-              <button class="btn-default">DEFAULT PRIMARY</button>
-            </td>
-            <td>
-              <button class="btn-default">DEFAULT  SECUNDARY</button>
-            </td>
-            <td>
-              <button class="btn-default">DEFAULT TERTIARY</button>
-            </td>
-            <td>
-              <button class="btn-default"><img src="./assets/pointer.svg" alt=""></button>
-            </td>
-          </tr>
+      <h1>Teste os botões</h1>
+      <p>Interaja com os botões e observe a mudança de aparencia e dos Cursores</p>
 
-          <tr class="hover">
-            <td>HOVER</td>
-            <td>
-              <button class="btn-hover">HOVER PRIMARY</button>
-            </td>
-            <td>
-              <button class="btn-hover">HOVER  SECUNDARY</button>
-            </td>
-            <td>
-              <button class="btn-hover">HOVER TERTIARY</button>
-            </td>
-            <td>
-              <button class="btn-hover"><img src="./assets/pointer.svg" alt=""></button>
-            </td>
-          </tr>
+      <button class="btn primary">primary button</button>
+      <button class="btn primary" disabled>primary button</button>
+      <button class="btn primary load">
+        <i class="ph-circle-notch"></i> primary button
+      </button>
+      <button class="btn primary moove">
+        <i class="ph-list"></i> primary button
+      </button>
 
-          <tr class="focus">
-            <td>FOCUS</td>
-            <td>
-              <button class="btn-focus">FOCUS PRIMARY</button>
-            </td>
-            <td>
-              <button class="btn-focus">FOCUS  SECUNDARY</button>
-            </td>
-            <td>
-              <button class="btn-focus">FOCUS TERTIARY</button>
-            </td>
-            <td>
-              <button class="btn-focus"><img src="./assets/pointer.svg" alt=""></button>
-            </td>
-          </tr>
+      <button class="btn secundary">primary button</button>
+      <button class="btn secundary" disabled>primary button</button>
+      <button class="btn secundary load">
+        <i class="ph-circle-notch"></i> primary button
+      </button>
+      <button class="btn secundary moove">
+        <i class="ph-list"></i> primary button
+      </button>
 
-          <tr class="disabled">
-            <td>DISABLED</td>
-            <td>
-              <button class="btn-disabled">DISABLED PRIMARY</button>
-            </td>
-            <td>
-              <button class="btn-disabled">DISABLED  SECUNDARY</button>
-            </td>
-            <td>
-              <button class="btn-disabled">DISABLED TERTIARY</button>
-            </td>
-            <td>
-              <button class="btn-disabled"><img src="./assets/disable-pointer.svg" alt=""></button>
-            </td>
-          </tr>
-
-          <tr class="load">
-            <td>LOADING</td>
-            <td>
-              <button class="btn-load"><img src="./assets/loading.svg" alt=""> LOADING PRIMARY</button>
-            </td>
-            <td>
-              <button class="btn-load"><img src="./assets/loading.svg" alt=""> LOADING  SECUNDARY</button>
-            </td>
-            <td>
-              <button class="btn-load"><img src="./assets/loading.svg" alt=""> LOADING TERTIARY</button>
-            </td>
-            <td>
-              <button class="btn-load"><img src="./assets/loading-pointer.svg" alt=""></button>
-          </tr>
-
-          <tr class="moove">
-            <td>MOVABLE</td>
-            <td>
-              <button class="btn-moove"><img src="./assets/reaorder-three.svg" alt=""> MOVABLE PRIMARY</button>
-            </td>
-            <td>
-              <button class="btn-moove"><img src="./assets/reaorder-three.svg" alt=""> MOVABLE  SECUNDARY</button>
-            </td>
-            <td>
-              <button class="btn-moove"><img src="./assets/reaorder-three.svg" alt=""> MOVABLE TERTIARY</button>
-            </td>
-            <td>
-              <button class="btn-moove"><img src="./assets/moove-pointer.svg" alt=""></button>
-          </tr>
-        </tbody>
-      </table>
+      <button class="btn tertiary">primary button</button>
+      <button class="btn tertiary" disabled>primary button</button>
+      <button class="btn tertiary load">
+        <i class="ph-circle-notch"></i> primary button
+      </button>
+      <button class="btn tertiary moove">
+        <i class="ph-list"></i> primary button
+      </button>
     </div>
   </body>
 </html>
